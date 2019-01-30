@@ -1,0 +1,93 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "rm -rf dist && parcel build public/index.html --out-dir dist --no-cache",
+    "tsc": "tsc",
+    "test": "jest --no-cache"
+  },
+  "dependencies": {
+    "@material-ui/core": "3.9.0",
+    "@material-ui/icons": "3.0.2",
+    "axios": "0.18.0",
+    "history": "4.7.2",
+    "mobx": "5.9.0",
+    "mobx-react": "5.4.3",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-router-dom": "4.3.1",
+    "react-social-icons": "4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "@types/enzyme": "3.1.16",
+    "@types/history": "4.7.2",
+    "@types/jest": "23.3.13",
+    "@types/material-ui": "0.21.5",
+    "@types/node": "10.12.18",
+    "@types/react": "16.7.20",
+    "@types/react-dom": "16.0.11",
+    "@types/react-router-dom": "4.3.1",
+    "babel-plugin-module-resolver": "3.1.3",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.8.0",
+    "enzyme-react-16-adapter-setup": "0.1.0",
+    "enzyme-to-json": "3.3.5",
+    "husky": "1.3.1",
+    "jest": "24.0.0",
+    "jest-date-mock": "1.0.7",
+    "jest-enzyme": "7.0.1",
+    "lint-staged": "8.1.1",
+    "parcel-bundler": "1.11.0",
+    "prettier": "1.16.1",
+    "react-test-renderer": "16.7.0",
+    "tslint": "5.12.1",
+    "tslint-config-prettier": "1.17.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.2.4"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/test/shim.js",
+      "<rootDir>/test/setup.js",
+      "jest-date-mock"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/test/typescriptTransformer.js",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "testMatch": [
+      "**/__tests__/*.js"
+    ],
+    "cacheDirectory": ".jest/cache",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "lint-staged": {
+    "./**/*.{js,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run tsc && npm run test"
+    }
+  }
+}

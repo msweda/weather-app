@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match snapshot 1`] = `
+<div
+  className="Header-header-1"
+>
+  <WithStyles(Typography)
+    variant="h6"
+  >
+    Matthew Sweda's Weather App
+  </WithStyles(Typography)>
+  <WithStyles(MobileMenu) />
+</div>
+`;

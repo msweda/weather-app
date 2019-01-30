@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/env", {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@/src": "./src",
+        "@/common": "./src/common",
+        "@/weather": "./src/weather",
+        "@/forecast": "./src/forecast",
+      }
+    }]
+  ]
+}

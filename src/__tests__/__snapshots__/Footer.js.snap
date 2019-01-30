@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should match snapshot 1`] = `
+<div
+  className="Footer-footer-1"
+>
+  <div
+    className="Footer-contact-2"
+  >
+    <div
+      className="Footer-iconWithText-3"
+    >
+      <pure(PhoneIcon)
+        className="Footer-icon-4"
+      />
+      <WithStyles(Typography)>
+        (248)-770-7487
+      </WithStyles(Typography)>
+    </div>
+    <div
+      className="Footer-iconWithText-3"
+    >
+      <pure(EmailIcon)
+        className="Footer-icon-4"
+      />
+      <WithStyles(Typography)>
+        msweda.developer@gmail.com
+      </WithStyles(Typography)>
+    </div>
+    <div
+      className="Footer-iconWithText-3"
+    >
+      <pure(PlaceIcon)
+        className="Footer-icon-4"
+      />
+      <WithStyles(Typography)>
+        Detroit, MI
+      </WithStyles(Typography)>
+    </div>
+  </div>
+  <WithStyles(Typography)
+    className="Footer-copyright-5"
+  >
+    © Matthew Sweda 2019
+  </WithStyles(Typography)>
+  <div
+    className="Footer-socialMediaIcons-6"
+  >
+    <SocialIcon
+      bgColor="#6ba099"
+      url="mailto:msweda.developer@gmail.com"
+    />
+    <SocialIcon
+      bgColor="#6ba099"
+      url="https://www.linkedin.com/in/matthew-sweda-118570ba/"
+    />
+    <SocialIcon
+      bgColor="#6ba099"
+      url="https://www.instagram.com/mattsweda/"
+    />
+  </div>
+</div>
+`;

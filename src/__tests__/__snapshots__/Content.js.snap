@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> should match snapshot 1`] = `
+<div
+  className="Content-content-1"
+>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/weather"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/forecast"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
+</div>
+`;

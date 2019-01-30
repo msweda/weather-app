@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common utils getCurrentPosition rejects when geolocation is not defined 1`] = `"Geolocation is unavailable"`;

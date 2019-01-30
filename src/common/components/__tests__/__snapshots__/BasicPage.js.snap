@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasicPage /> should match snapshot 1`] = `
+<div
+  className="BasicPage-basicPage-1"
+>
+  <div
+    className="BasicPage-leftPageMargin-2"
+  />
+  <div
+    className="BasicPage-pageContent-3"
+  />
+  <div
+    className="BasicPage-rightPageMargin-4"
+  />
+</div>
+`;

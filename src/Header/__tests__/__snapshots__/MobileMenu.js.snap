@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MobileMenu /> should match snapshot 1`] = `
+<div>
+  <WithStyles(IconButton)
+    onClick={[Function]}
+  >
+    <pure(MenuIcon)
+      className="MobileMenu-menuButton-1"
+    />
+  </WithStyles(IconButton)>
+  <WithStyles(Drawer)
+    anchor="right"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(List)>
+      <WithStyles(ListItem)
+        button={true}
+        key="mobileMenu-listItem-0"
+        onClick={[Function]}
+      >
+        <WithStyles(ListItemIcon)>
+          <pure(AcUnitIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          secondary="Weather"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        button={true}
+        key="mobileMenu-listItem-1"
+        onClick={[Function]}
+      >
+        <WithStyles(ListItemIcon)>
+          <pure(Filter5Icon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          secondary="Forecast"
+        />
+      </WithStyles(ListItem)>
+    </WithStyles(List)>
+  </WithStyles(Drawer)>
+</div>
+`;
