@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Weather /> should match snapshot 1`] = `
+<div
+  className="Weather-weatherIcons-1"
+>
+  <div
+    className="Weather-weatherArrayElement-2"
+    key="weather-array-element-0"
+  >
+    <img
+      height="30"
+      src="http://openweathermap.org/img/w/09n.png"
+      width="30"
+    />
+    <WithStyles(Typography)
+      color="primary"
+    >
+      Rain
+    </WithStyles(Typography)>
+  </div>
+  <div
+    className="Weather-weatherArrayElement-2"
+    key="weather-array-element-1"
+  >
+    <img
+      height="30"
+      src="http://openweathermap.org/img/w/50n.png"
+      width="30"
+    />
+    <WithStyles(Typography)
+      color="primary"
+    >
+      Mist
+    </WithStyles(Typography)>
+  </div>
+</div>
+`;
