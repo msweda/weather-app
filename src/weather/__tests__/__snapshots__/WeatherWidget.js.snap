@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherWidget /> should match snapshot 1`] = `
+<WithStyles(Typography)>
+  Geolocation must be enabled to use this feature.
+</WithStyles(Typography)>
+`;
