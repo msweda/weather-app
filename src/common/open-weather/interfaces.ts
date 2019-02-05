@@ -15,5 +15,9 @@ export interface Main {
 }
 
 export interface ForecastData {
-  list: WeatherData[]
+  list: ForecastWeatherData[]
+}
+
+export interface ForecastWeatherData extends WeatherData {
+  dt: number
 }
