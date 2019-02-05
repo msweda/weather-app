@@ -7,7 +7,7 @@ exports[`<Header /> should match snapshot 1`] = `
   <WithStyles(Typography)
     variant="h6"
   >
-    Matthew Sweda's Weather App
+    Matt's Weather App
   </WithStyles(Typography)>
   <WithStyles(MobileMenu) />
 </div>
