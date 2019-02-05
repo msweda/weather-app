@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Weather /> should match snapshot 1`] = `
+<div>
+  <WithStyles(BasicPage)>
+    <WithStyles(inject-WeatherWidget) />
+  </WithStyles(BasicPage)>
+</div>
+`;

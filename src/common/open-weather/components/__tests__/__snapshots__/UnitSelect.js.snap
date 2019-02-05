@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnitSelect /> should match snapshot 1`] = `
+<WithStyles(FormControl)>
+  <WithStyles(WithFormControlContext(InputLabel))
+    htmlFor="weather-units-input"
+  >
+    Units
+  </WithStyles(WithFormControlContext(InputLabel))>
+  <WithStyles(WithFormControlContext(Select))
+    inputProps={
+      Object {
+        "id": "weather-units-input",
+      }
+    }
+    onChange={[Function]}
+  >
+    <WithStyles(MenuItem)
+      value="scientific"
+    >
+      Kelvin
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      value="metric"
+    >
+      Celsius
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      value="imperial"
+    >
+      Fahrenheit
+    </WithStyles(MenuItem)>
+  </WithStyles(WithFormControlContext(Select))>
+</WithStyles(FormControl)>
+`;
